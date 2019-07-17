@@ -27,7 +27,6 @@ public class TestMain {
 		System.out.println("----------");
 		EmpMapper emp = session.getMapper(EmpMapper.class);
 		System.out.println(emp.findEmpandDept());
-		System.out.println("--------------");
 		session.close();
 	}
 
